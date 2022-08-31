@@ -34,7 +34,7 @@ function Hero() {
   <div className="mx-15 mt-8 px-5 ml-10">
     <div className="flex ">
   <div className="bg-yellow border rounded-full w-15 p-10">
-    <div className="flex flex-col absolute left-44 top-8">
+    <div className="flex flex-col absolute left-45 top-8">
       <Image src={Vector}></Image>
       <Image src={Vector}></Image>
       <Image src={Vector}></Image>
@@ -46,13 +46,13 @@ function Hero() {
     <Image src={Vector2}></Image>
     </div>
     </div>
-    <div className="absolute top-7 left-60">
+    <div className="absolute top-7 left-59">
       <Image   src={Rectangle2}></Image>
       </div>
-      <div className="absolute top-18 left-58" >
+      <div className="absolute top-17 left-57" >
      <Image  src={Rectangle3}></Image> 
      </div>
-     <div className="absolute top-24 right-1" >
+     <div className="absolute top-23 right-1" >
       <Image  src={Rectangle4}></Image> 
       </div>
       </div>

@@ -17,16 +17,16 @@ function Body() {
     <div className="bg-gray-light">
       <div className="bg-gray-light grid grid-rows-6 grid-flow-col gap-3 place-items-center">
         <div>
-          <p>Why Uses Bitsy</p>
+          <p>WHO USES BITSY</p>
         </div>
         <div>
-          <h1 className="text-black font-bold">100+ Categories of Creators</h1>
+          <h1 className="text-black font-bold text-5xl">100+ Categories of Creators</h1>
         </div>
         <div>
           <p className="text-brown ">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis
             mauris neque sit turpis est mi sit in massa. Lorem ipsum dolor sit
-            amet, consectetur adipiscing elit.{" "}
+            amet, consectetur adipiscing elit.
           </p>
         </div>
         <div className="flex ">
