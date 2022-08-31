@@ -4,8 +4,8 @@ import Image from 'next/image';
 
 function Footer() {
   return (
-    <div >
-    <div className='bg-black h-2/4 grid grid-cols-6 gap-2 p-7 border-b-[1px] border-yellow '>
+    <div className='bg-black p-12 flex flex-col gap-4'>
+    <div className='bg-black h-2/4 grid grid-cols-6 gap-2 p-7 border-b-[1px] border-grey '>
     <div className='mt-4'>
         <Image src={Logo}></Image>
         <p className='text-white'>2022 @Bitsy</p>

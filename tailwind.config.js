@@ -19,6 +19,7 @@ module.exports = {
       'dark-gray':'#A4A4A4',
       'brown':'#1E1E1E',
       'yellow':'#FFAC49',
+      "grey":"#424141"
     },
     screens: {
       sm: '480px',

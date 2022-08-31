@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Ellipse from "../../assets/Ellipse.png";
 import IMG1 from "../../assets/Img1.png";
-import IMG2 from "../../assets/Img2.png";
+import IMG2 from "../../assets/img2.png";
 import IMG3 from "../../assets/Img3.png";
 import IMG4 from "../../assets/Img4.png";
 import IMG5 from "../../assets/Img5.png";
@@ -14,10 +14,10 @@ import IMG10 from "../../assets/Img10.png";
 
 function Body() {
   return (
-    <div className="bg-gray-light">
+    <div className="bg-gray-light p-8">
       <div className="bg-gray-light grid grid-rows-6 grid-flow-col gap-3 place-items-center">
         <div>
-          <p>WHO USES BITSY</p>
+          <p className="text-2xl font-medium  font-bold bg-gradient-to-r from-pink to-blue" style={{"WebkitTextFillColor":"transparent","WebkitBackgroundClip":"text"}}>WHO USES BITSY</p>
         </div>
         <div>
           <h1 className="text-black font-bold text-5xl">100+ Categories of Creators</h1>
@@ -84,24 +84,24 @@ function Body() {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-5">
-        <div>
+      <div className="grid grid-cols-5 gap-4">
+        <div className="flex flex-col items-center justify-center gap-4">
           <Image src={IMG1}></Image>
           <Image src={IMG2}></Image>
         </div>
-        <div className="pt-10 mr-2">
+        <div className="pt-48 flex flex-col items-center justify-center gap-4">
           <Image src={IMG3}></Image>
           <Image src={IMG4}></Image>
         </div>
-        <div className="pt-20 mr-2">
+        <div className="pt-96 flex flex-col items-center justify-center gap-4">
           <Image src={IMG5}></Image>
           <Image src={IMG6}></Image>
         </div>
-        <div className="pt-10 mr-2">
+        <div className="pt-48 flex flex-col items-center justify-center gap-4">
           <Image src={IMG7}></Image>
           <Image src={IMG8}></Image>
         </div>
-        <div>
+        <div className="flex flex-col items-center justify-center gap-4">
           <Image src={IMG9}></Image>
           <Image src={IMG10}></Image>
         </div>
