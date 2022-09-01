@@ -1,5 +1,7 @@
-import React from "react";
+import React,{useEffect} from "react";
 import Image from "next/image";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import Ellipse from "../../assets/Ellipse.png";
 import IMG1 from "../../assets/Img1.png";
 import IMG2 from "../../assets/img2.png";
@@ -13,8 +15,11 @@ import IMG9 from "../../assets/Img9.png";
 import IMG10 from "../../assets/Img10.png";
 
 function Body() {
+  useEffect(()=>{
+    Aos.init({duration:3000});
+  },[]);
   return (
-    <div className="bg-gray-light p-8">
+    <div className="bg-gray-light p-8" id="whyBitsy">
       <div className="bg-gray-light grid grid-rows-6 grid-flow-col gap-3 place-items-center">
         <div>
           <p className="text-2xl font-medium  font-bold bg-gradient-to-r from-pink to-blue" style={{"WebkitTextFillColor":"transparent","WebkitBackgroundClip":"text"}}>WHO USES BITSY</p>
@@ -84,7 +89,7 @@ function Body() {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-5 gap-4">
+      <div className="grid grid-cols-5 gap-4" data-aos="fade-up">
         <div className="flex flex-col items-center justify-center gap-4">
           <Image src={IMG1}></Image>
           <Image src={IMG2}></Image>

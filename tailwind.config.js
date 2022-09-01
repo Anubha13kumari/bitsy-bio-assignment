@@ -8,6 +8,7 @@ module.exports = {
   theme: {
     colors: {
       'black': '#030303',
+      'semi-black':'#000000cc',
       'purple': '#8866F0',
       'white': '#FFFFFF',
       'levender': '#9EB5FB',
