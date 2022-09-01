@@ -17,16 +17,16 @@ function Navbar() {
   </div> */}
   <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
     <div class="text-sm lg:flex-grow flex justify-center">
-      <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200  text-purple mr-6">
+      <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200  text-purple mr-6 hover:text-3xl">
         Explore
       </a>
-      <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 text-white mr-6">
+      <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 text-white mr-6 hover:text-3xl">
         Why Bitsy.bio?
       </a>
-      <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 text-white mr-6">
+      <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 text-white mr-6 hover:text-3xl">
         About Us
       </a>
-      <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 text-white">
+      <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 text-white hover:text-3xl">
         Contact
       </a>
     </div>

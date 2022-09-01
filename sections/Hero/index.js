@@ -23,7 +23,7 @@ function Hero() {
      <div className="flex items-center">
      <div className="bg-gray flex items-center ml-8 mr-15 w-2/4 p-6 mt-5 rounded-3xl">
       <p className="text-white mr-4 text-sm">bitsy.bio/yourname</p>
-      <button className="bg-purple text-sm px-4 py-2 leading-none border rounded text-white border-purple  mt-4 lg:mt-0 mr-7 flex-auto w-32 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-pink">Get Started</button>
+      <button className="bg-purple text-sm px-4 py-2 leading-none border rounded text-white border-purple  mt-4 lg:mt-0 mr-7 flex-auto w-32 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-pink hover:shadow-pink shadow-pink">Get Started</button>
      </div>
      <div className="flex items-center mt-5">
      <button className="bg-purple rounded-bl-full rounded-br-full rounded-tl-full rounded-tr-full w-10 p-2 ml-3 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-pink">
@@ -42,8 +42,8 @@ function Hero() {
       
   <div className="mx-15 mt-8 px-5 ml-10">
     <div className="flex ">
-  <div className="bg-yellow border rounded-full w-15 p-12 absolute top-[calc(100%-28rem)] " style={{transform:"skewY(-15deg)"}}>
-    <div className="flex flex-col absolute left-[calc(100%-8rem)] top-0">
+  <div className="bg-yellow border rounded-full w-15 p-12 absolute top-[calc(100%-28rem)] animate-pulse " style={{transform:"skewY(-15deg)"}}>
+    <div className="flex flex-col absolute left-[calc(100%-8rem)] top-0 animate-pulse">
       <Image src={Vector}></Image>
       <Image src={Vector}></Image>
       <Image src={Vector}></Image>
@@ -51,17 +51,17 @@ function Hero() {
   <div className="absolute left-[calc(100%-4rem)] top-[calc(100%-4rem)]">
     <Image src={Vector1}></Image>
     </div>
-    <div  className="absolute left-49 top-[calc(100%-3.5rem)] left-[calc(100%-3.3rem)]">
+    <div  className="absolute left-49 top-[calc(100%-3.5rem)] left-[calc(100%-3.3rem)] animate-pulse">
     <Image src={Vector2}></Image>
     </div>
     </div>
-    <div className="absolute top-[calc(100%-28rem)] right-[calc(100%-80rem)]">
+    <div className="absolute top-[calc(100%-28rem)] right-[calc(100%-80rem)] ">
       <Image   src={Rectangle2}></Image>
       </div>
-      <div className="absolute left-[calc(100%-32rem)] top-[calc(100%-19rem)]" >
+      <div className="absolute left-[calc(100%-32rem)] top-[calc(100%-19rem)] animate-bounce" >
      <Image  src={Rectangle3}></Image> 
      </div>
-     <div className="absolute top-23 top-[calc(100%-12rem)] right-[calc(100%-79rem)]" >
+     <div className="absolute top-23 top-[calc(100%-12rem)] right-[calc(100%-79rem)] animate-bounce" >
       <Image  src={Rectangle4}></Image> 
       </div>
       </div>
